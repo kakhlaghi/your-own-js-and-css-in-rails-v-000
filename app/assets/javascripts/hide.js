@@ -2,4 +2,4 @@ function hideWhenClicked(){
   element.hide()
 }
 
-$('#hide_this').click()
+$('#hide_this').click(hideWhenClicked)
